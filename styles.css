@@ -158,3 +158,31 @@ html, body {
 main {
     flex: 1;
 }
+
+body {
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('path/to/your/background-image.jpg');
+    background-size: cover; /* Ensures the background image covers the entire viewport */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    color: #5c4033;
+    text-align: center;
+    animation: fadeIn 1s ease-in;
+}
+
+header, .introduction, footer {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for better readability */
+    padding: 20px 0;
+    margin: 0 auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Example for adjusting text color */
+h1, h2, p {
+    color: #3e2723; /* Dark color for text */
+}
+
