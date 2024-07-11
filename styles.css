@@ -1,12 +1,9 @@
-/* Import the Lora font */
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
-
 body {
     font-family: 'Lora', serif;
     margin: 0;
     padding: 0;
     background-color: #f5f2eb;
-    color: #5c4033;
+    color: #eadfd0;
     text-align: center;
     animation: fadeIn 1s ease-in;
 }
@@ -17,8 +14,8 @@ body {
 }
 
 header {
-    background-color: #3e2723;
-    color: #fff;
+    background-color: #32140b;
+    color: #c6c8b2;
     padding: 20px 0;
     animation: fadeIn 1s ease-in;
 }
@@ -32,12 +29,13 @@ h1 {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgba(39, 31, 28, 0.5); /* Transparent brown background */
+    border-radius: 15px; /* Soft rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
     font-size: 1.1em;
     text-align: center;
-    animation: fadeIn 1s ease-in;
+    animation: fadeIn 2s ease-in;
+    backdrop-filter: blur(12px); /* Apply backdrop blur */
 }
 
 .introduction p {
@@ -49,7 +47,7 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 20px;
-    animation: fadeIn 1s ease-in;
+    animation: fadeIn 4s ease-in;
 }
 
 .image-link {
@@ -59,7 +57,8 @@ h1 {
     max-width: 300px;
     height: 400px;
     overflow: hidden;
-    border-radius: 10px;
+    border: 5px solid #483d35;
+    border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
