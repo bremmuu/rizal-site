@@ -5,7 +5,7 @@ body {
     background-color: #f5f2eb;
     color: #eadfd0;
     text-align: center;
-    animation: fadeIn 1s ease-in;
+    animation: fadeIn 0.5s ease-in;
 }
 
 @keyframes fadeIn {
@@ -17,7 +17,7 @@ header {
     background-color: #32140b;
     color: #c6c8b2;
     padding: 20px 0;
-    animation: fadeIn 1s ease-in;
+    animation: fadeIn 0.5s ease-in;
 }
 
 h1 {
@@ -34,7 +34,7 @@ h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
     font-size: 1.1em;
     text-align: center;
-    animation: fadeIn 2s ease-in;
+    animation: fadeIn 1s ease-in;
     backdrop-filter: blur(12px); /* Apply backdrop blur */
 }
 
@@ -47,7 +47,7 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 20px;
-    animation: fadeIn 4s ease-in;
+    animation: fadeIn 1.5s ease-in;
 }
 
 .image-link {
